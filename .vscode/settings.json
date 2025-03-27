@@ -2,6 +2,18 @@
   "workbench.colorCustomizations": {
     "activityBar.background": "#4B2306",
     "titleBar.activeBackground": "#693108",
-    "titleBar.activeForeground": "#FEFAF6"
+    "titleBar.activeForeground": "#FEFAF6",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vue.server.hybridMode": true,
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
   }
 }
